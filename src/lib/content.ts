@@ -1,0 +1,738 @@
+/** Site copy in English and Arabic. `en` defines the shape; `ar` must match it. */
+
+export const en = {
+  meta: {
+    langName: "العربية",
+    langShort: "AR",
+  },
+  nav: {
+    home: "Home",
+    stories: "Success stories",
+    dashboard: "Dashboard",
+    clients: "Our clients",
+    about: "About",
+    contact: "Contact",
+    demo: "Live demo",
+    cta: "Start a campaign",
+    openMenu: "Open menu",
+    closeMenu: "Close menu",
+    theme: "Switch theme",
+    language: "Switch language",
+  },
+  footer: {
+    blurb: "Influencer campaigns planned, managed, and measured end to end across 52+ countries.",
+    tagline: "Right creators. Right audiences. Clear campaigns.",
+    explore: "Explore",
+    company: "Company",
+    aboutUs: "About us",
+    contactUs: "Contact us",
+    markets: "Markets",
+    marketsBody: "Saudi Arabia · Kuwait · United Arab Emirates · Qatar · Bahrain — and 47 more.",
+    rights: "All rights reserved.",
+  },
+  common: {
+    countries: "Countries",
+    reach: "Follower reach",
+    creators: "Creators",
+    brandsServed: "Brands served",
+    followers: "Combined creator following",
+    years: "Years",
+    campaigns: "Campaigns delivered",
+    countriesReached: "Countries reached",
+    yearsRunning: "Years running campaigns",
+    viewClients: "View our clients",
+    allStories: "Explore all campaigns",
+    planCampaign: "Plan your campaign",
+    startCampaign: "Start a campaign",
+    seeStories: "See campaign results",
+    play: "Play the film",
+    pause: "Pause the film",
+  },
+  markets: {
+    Egypt: "Egypt",
+    Kuwait: "Kuwait",
+    Qatar: "Qatar",
+    "Saudi Arabia": "Saudi Arabia",
+    "United Arab Emirates": "United Arab Emirates",
+    Bahrain: "Bahrain",
+  } as Record<string, string>,
+  categories: {
+    All: "All",
+    Restaurant: "Restaurant",
+    Café: "Café",
+    Fashion: "Fashion",
+    Beauty: "Beauty",
+  } as Record<string, string>,
+  home: {
+    title: "Influence that reaches the right audience | ELITƎ",
+    description:
+      "ELITƎ plans, runs, and measures influencer campaigns end to end, matching brands with creators whose audiences fit their goals.",
+    eyebrow: "Influencer marketing · 52+ countries",
+    heroLine1: "Influence that reaches",
+    heroLine2: "the right audience.",
+    heroBody:
+      "ELITƎ plans, runs, and measures influencer campaigns end to end — matching your brand with creators whose audiences fit your goals.",
+    heroAlt: "Guests at an exclusive rooftop dinner overlooking a Gulf skyline",
+    trusted: "Trusted by brands across the Gulf and beyond",
+    whyEyebrow: "Why ELITƎ",
+    whyLine1: "Why brands",
+    whyLine2: "choose ELITƎ.",
+    whyBody:
+      "Ten years of campaign experience, a creator network across 52+ countries, and one team managing the process from brief to reporting.",
+    pillars: [
+      {
+        title: "Proven experience",
+        body: "More than ten years of running creator campaigns across markets, categories, and campaign types.",
+      },
+      {
+        title: "Scale across markets",
+        body: "Reach creators and audiences across more than 52 countries without managing separate partners in every market.",
+      },
+      {
+        title: "Right creator, right audience",
+        body: "We match creators to your brand based on audience fit, market, category, and campaign goals — not follower count alone.",
+      },
+      {
+        title: "Clear campaign visibility",
+        body: "Track campaign progress and published content, then get reporting you can share with your team.",
+      },
+    ],
+    servicesEyebrow: "Campaign services",
+    servicesLine1: "Everything you need to run",
+    servicesLine2: "a stronger influencer campaign.",
+    servicesBody:
+      "From finding the right creators to tracking delivery, our strategy, creator management, content, and reporting work as one process.",
+    services: [
+      {
+        title: "Creator matching",
+        body: "Find creators whose audience, market, category, and content style fit your brand and campaign goal.",
+      },
+      {
+        title: "Campaign strategy",
+        body: "Turn your objectives, market, timing, and budget into a clear campaign plan.",
+      },
+      {
+        title: "Creator content",
+        body: "Creators produce content in their own voice, aligned with your brief and brand guidelines.",
+      },
+      {
+        title: "Campaign tracking",
+        body: "Follow delivery while the campaign is live and receive clear reporting when it ends.",
+      },
+    ],
+    filmEyebrow: "Campaigns on film",
+    filmBody: "See the creator content behind the campaign numbers.",
+    filmAlt: "A creator filming a plated dish in a dimly lit fine-dining restaurant",
+    processEyebrow: "How it works",
+    processLine1: "Four clear steps",
+    processLine2: "from brief to results.",
+    step: "Step",
+    steps: [
+      {
+        title: "Match",
+        body: "We match your brand with creators whose audience, market, and content style fit the campaign.",
+      },
+      {
+        title: "Plan",
+        body: "We turn your goals, market, timing, deliverables, and budget into a clear campaign plan.",
+      },
+      {
+        title: "Create",
+        body: "Creators produce authentic content in their own voice, aligned with your brand guidelines.",
+      },
+      {
+        title: "Measure",
+        body: "Track published content as it happens, then review delivery, reach, and campaign performance in clear reports.",
+      },
+    ],
+    storiesEyebrow: "Campaigns in action",
+    storiesLine1: "See how brands activate",
+    storiesLine2: "creators at scale.",
+    reelsEyebrow: "Campaign films",
+    reelsLine1: "See the work,",
+    reelsLine2: "not just the numbers.",
+    dashEyebrow: "The ELITƎ dashboard",
+    dashLine1: "Your campaign,",
+    dashLine2: "clear at a glance.",
+    dashPoints: [
+      "Follow every creator from invitation to published content",
+      "See stories, posts, and videos in one place",
+      "Manage shortlists, branches, and creator check-ins",
+      "Get live campaign support when you need it",
+    ],
+    ctaLine1: "Ready to plan",
+    ctaLine2: "your next campaign?",
+    ctaBody:
+      "Tell us what you want to achieve. We’ll help you shape the creator mix, campaign plan, and next steps.",
+    skylineAlt: "Gulf city skyline at night",
+  },
+  about: {
+    title: "About ELITƎ | Creator campaigns across 52+ countries",
+    description:
+      "For more than ten years, ELITƎ has helped brands plan and run creator campaigns across 52+ countries.",
+    eyebrow: "About ELITƎ",
+    heroLine1: "A decade of building influence",
+    heroLine2: "across markets.",
+    heroBody:
+      "For more than ten years, ELITƎ has helped brands plan and run creator campaigns across 52+ countries — combining market knowledge, creator relationships, and clear campaign management.",
+    missionEyebrow: "What we do",
+    missionTitle: "Make influencer marketing easier to plan, run, and measure.",
+    missionBody:
+      "We build creator strategies around your audience and campaign goals, then manage the work from creator selection to reporting.",
+    approachEyebrow: "Our approach",
+    approachTitle: "Right creator. Right audience. Right moment.",
+    approachBody:
+      "We start with who you need to reach, then choose the creators, market plan, and campaign execution that best support that goal.",
+    quote: "The right creator, in the right market, at the right moment.",
+    figureAlt: "A creator capturing a fine-dining dish for a brand campaign",
+    whyEyebrow: "Why brands work with ELITƎ",
+    whyLine1: "Built for clarity,",
+    whyLine2: "scale, and control.",
+    reasons: [
+      {
+        title: "Proven experience",
+        body: "More than ten years of hands-on campaign experience across markets and categories.",
+      },
+      {
+        title: "Market reach",
+        body: "A creator network across more than 52 countries gives you room to grow across markets.",
+      },
+      {
+        title: "Audience-led creator matching",
+        body: "Creator selection starts with audience fit and campaign goals, not follower count alone.",
+      },
+      {
+        title: "Clear measurement",
+        body: "Follow campaign delivery and review performance through structured reporting.",
+      },
+      {
+        title: "Hands-on support",
+        body: "A campaign team supports the process from planning through delivery and reporting.",
+      },
+    ],
+    ctaLine1: "Let’s plan",
+    ctaLine2: "your next campaign.",
+    ctaBody:
+      "Tell us your goal and target market. We’ll help you shape the creator approach and next steps.",
+  },
+  clients: {
+    title: "Our clients | ELITƎ",
+    description:
+      "Brands across the Gulf and beyond work with ELITƎ to reach audiences through carefully matched creators.",
+    eyebrow: "Our clients",
+    heroLine1: "Brands that trust ELITƎ",
+    heroLine2: "with their campaigns.",
+    heroBody:
+      "From hospitality and beauty to fashion, automotive, and lifestyle, brands across the Gulf and beyond work with ELITƎ to reach relevant audiences.",
+    roster: "Client roster",
+    brands: "brands",
+    search: "Search by brand name",
+    emptyTitle: "No brands match that name.",
+    emptyBody: "Clear the search to see all brands.",
+    ctaLine1: "Want to see",
+    ctaLine2: "your brand here?",
+    ctaButton: "Start a campaign",
+  },
+  stories: {
+    title: "Campaigns in action | ELITƎ",
+    description: "Explore ELITƎ campaigns by market and see the creator scale behind each one.",
+    eyebrow: "Campaigns in action",
+    heroLine1: "See real ELITƎ campaigns",
+    heroLine2: "at a glance.",
+    heroBody:
+      "Explore campaigns by market and see the creator scale behind each one. Filter by market to find campaigns relevant to you.",
+    heroAlt:
+      "Guests admiring curated brand activations and luxury showcases at an exclusive evening awards exhibition in Riyadh",
+    featured: "Featured campaigns",
+    filmsEyebrow: "Campaign films",
+    filmsLine1: "Watch the campaigns",
+    filmsLine2: "in action.",
+    ctaLine1: "Ready to build",
+    ctaLine2: "your own campaign?",
+  },
+  contact: {
+    title: "Start a campaign — Contact ELITƎ",
+    description:
+      "Share your brand, target market, and campaign goal with ELITƎ to plan the right creator approach and next steps.",
+    eyebrow: "Start a campaign",
+    heroLine1: "Tell us what you want",
+    heroLine2: "to achieve.",
+    heroBody:
+      "Share your brand, target market, and campaign goal. We’ll review the brief and come back with a recommended creator approach and next steps.",
+    points: [
+      "Access to 85K+ creators across 52+ countries",
+      "End-to-end campaign planning and management",
+      "Live campaign tracking and clear reporting",
+    ],
+    fields: {
+      name: "Full name",
+      namePh: "Your name",
+      brand: "Brand / company",
+      brandPh: "Brand or company name",
+      email: "Work email",
+      emailPh: "you@company.com",
+      market: "Target market",
+      marketPh: "Saudi Arabia, Kuwait, UAE…",
+      goal: "Campaign goal",
+      goalPh: "What do you want this campaign to achieve?",
+    },
+    submit: "Send campaign brief",
+    sentTitle: "Thanks — your campaign brief has been sent.",
+    sentBody: "Our team will review it and get back to you soon.",
+  },
+  platform: {
+    title: "Dashboard | ELITƎ",
+    description:
+      "Manage branches, creators, campaign stages, and published content in one ELITƎ workspace.",
+    hero: {
+      heading: "One workspace for every campaign.",
+      tag: "The ELITƎ dashboard",
+      lede: "See branches, creators, campaign stages, and published content in one place, so your team always knows what is happening next.",
+      ctaPrimary: "Explore the live demo",
+      ctaSecondary: "Book a walkthrough",
+    },
+    demo: {
+      note: "Demo data is illustrative. Switch between campaigns to explore the workspace.",
+      switchAriaLabel: "Choose a dashboard demo campaign",
+      viewLaunch: "Summer launch",
+      viewGrowth: "Always-on growth",
+      viewOpening: "New location",
+      campaign: "Summer launch · Riyadh",
+      period: "01–30 Jun 2026",
+    },
+    kpis: {
+      branchesLabel: "Branches",
+      branchesSub: "Per location reporting",
+      creatorsLabel: "Saved creators",
+      creatorsSub: "Profiles saved by your team",
+      campaignsLabel: "Campaigns",
+      campaignsSub: "Live and scheduled",
+      coverageLabel: "Published content",
+      coverageSub: "Stories, posts, and videos",
+    },
+    overview: {
+      eyebrow: "Creator progress",
+      heading: "Know where every creator stands.",
+      lede: "Follow each creator from first contact to published content without chasing updates across messages and spreadsheets.",
+      pipelineAriaLabel: "Creator campaign stages",
+    },
+    pipeline: {
+      pending: "Pending",
+      confirmed: "Confirmed",
+      visited: "Visited",
+      delivered: "Delivered",
+      postCreation: "Post creation",
+      shared: "Shared",
+      covered: "Covered",
+    },
+    panels: {
+      recentCampaigns: "Sample campaigns",
+      recentCampaignsBadge: "Demo data",
+      coverageDetails: "Published content",
+      coverageTotal: "346 pieces",
+      story: "Story",
+      post: "Post",
+      video: "Video",
+      coverageNote:
+        "Published content is grouped by format and updates with the selected demo campaign.",
+    },
+    features: {
+      eyebrow: "Inside the platform",
+      heading: "Built to keep campaign teams in control.",
+      influencersTitle: "Creators & shortlists",
+      influencersCopy:
+        "Browse creators, save profiles, and build shortlists your team can use together.",
+      branchesTitle: "Branches",
+      branchesCopy: "Track creator activity and published content separately for each location.",
+      scannerTitle: "Creator check-ins",
+      scannerCopy:
+        "Confirm creator arrivals with a quick scan and keep location activity up to date.",
+      campaignsTitle: "Campaigns",
+      campaignsCopy:
+        "Follow every campaign from brief and approval through execution and published content.",
+      reportingTitle: "Reporting",
+      reportingCopy:
+        "Review campaign delivery by creator and content format, ready to share with stakeholders.",
+      supportTitle: "Live support",
+      supportCopy: "Get help from the campaign team when you need it.",
+    },
+    cta: {
+      heading: "See how the workspace fits your campaign.",
+      copy: "Book a walkthrough and explore the platform around your own campaign needs.",
+      button: "Book a walkthrough",
+    },
+  },
+} as const;
+
+type DeepMutable<T> = T extends readonly (infer U)[]
+  ? DeepMutable<U>[]
+  : T extends string
+    ? string
+    : T extends object
+      ? { -readonly [K in keyof T]: DeepMutable<T[K]> }
+      : T;
+
+export type Content = DeepMutable<typeof en>;
+
+export const ar: Content = {
+  meta: {
+    langName: "English",
+    langShort: "EN",
+  },
+  nav: {
+    home: "الرئيسية",
+    stories: "قصص النجاح",
+    dashboard: "لوحة التحكم",
+    clients: "عملاؤنا",
+    about: "عن ELITƎ",
+    contact: "تواصل معنا",
+    demo: "النسخة التجريبية",
+    cta: "ابدأ حملة",
+    openMenu: "افتح القائمة",
+    closeMenu: "أغلق القائمة",
+    theme: "تغيير المظهر",
+    language: "تغيير اللغة",
+  },
+  footer: {
+    blurb:
+      "حملات تسويق عبر المؤثرين نخطط لها ونديرها ونقيس نتائجها من البداية إلى النهاية في أكثر من ٥٢ دولة.",
+    tagline: "صُنّاع المحتوى المناسبون. الجمهور المناسب. حملات أوضح.",
+    explore: "استكشف",
+    company: "الشركة",
+    aboutUs: "عن ELITƎ",
+    contactUs: "تواصل معنا",
+    markets: "الأسواق",
+    marketsBody: "السعودية · الكويت · الإمارات العربية المتحدة · قطر · البحرين — و٤٧ دولة أخرى.",
+    rights: "جميع الحقوق محفوظة.",
+  },
+  common: {
+    countries: "دولة",
+    reach: "إجمالي الوصول عبر المتابعين",
+    creators: "صُنّاع محتوى",
+    brandsServed: "علامات تجارية تم خدمتها",
+    followers: "إجمالي متابعي صُنّاع المحتوى",
+    years: "سنوات",
+    campaigns: "حملات منفذة",
+    countriesReached: "دول تم الوصول إليها",
+    yearsRunning: "سنوات في إدارة الحملات",
+    viewClients: "تعرّف على عملائنا",
+    allStories: "استكشف كل الحملات",
+    planCampaign: "خطّط لحملتك",
+    startCampaign: "ابدأ حملة",
+    seeStories: "شاهد نتائج الحملات",
+    play: "تشغيل الفيلم",
+    pause: "إيقاف الفيلم",
+  },
+  markets: {
+    Egypt: "مصر",
+    Kuwait: "الكويت",
+    Qatar: "قطر",
+    "Saudi Arabia": "المملكة العربية السعودية",
+    "United Arab Emirates": "الإمارات العربية المتحدة",
+    Bahrain: "البحرين",
+  },
+  categories: {
+    All: "الكل",
+    Restaurant: "مطاعم",
+    Café: "مقاهي",
+    Fashion: "أزياء",
+    Beauty: "تجميل",
+  },
+  home: {
+    title: "تأثير يصل إلى الجمهور المناسب | ELITƎ",
+    description:
+      "تخطّط ELITƎ لحملات التسويق عبر المؤثرين وتديرها وتقيس نتائجها من البداية إلى النهاية، مع اختيار صُنّاع المحتوى المناسبين.",
+    eyebrow: "تسويق عبر المؤثرين · أكثر من ٥٢ دولة",
+    heroLine1: "تأثير يصل إلى",
+    heroLine2: "الجمهور المناسب.",
+    heroBody:
+      "تخطّط ELITƎ لحملات التسويق عبر المؤثرين وتديرها وتقيس نتائجها من البداية إلى النهاية، مع اختيار صُنّاع المحتوى الذين تتوافق جماهيرهم مع أهداف علامتك.",
+    heroAlt: "ضيوف في عشاء خاص على سطح يطل على أفق مدينة خليجية",
+    trusted: "تثق بنا علامات تجارية في الخليج وخارجه",
+    whyEyebrow: "لماذا ELITƎ؟",
+    whyLine1: "لماذا تختار العلامات التجارية",
+    whyLine2: "ELITƎ؟",
+    whyBody:
+      "أكثر من عشر سنوات من خبرة الحملات، وشبكة صُنّاع محتوى تمتد لأكثر من ٥٢ دولة، وفريق واحد يدير الرحلة من تفاصيل الحملة حتى التقارير.",
+    pillars: [
+      {
+        title: "خبرة مثبتة",
+        body: "أكثر من عشر سنوات في إدارة حملات صُنّاع المحتوى عبر أسواق وقطاعات وأهداف مختلفة.",
+      },
+      {
+        title: "انتشار عبر أسواق متعددة",
+        body: "تواصل مع صُنّاع المحتوى والجماهير في أكثر من ٥٢ دولة دون الحاجة إلى إدارة شركاء منفصلين في كل سوق.",
+      },
+      {
+        title: "صانع المحتوى المناسب للجمهور المناسب",
+        body: "نختار صُنّاع المحتوى بناءً على ملاءمة الجمهور والسوق والفئة وهدف الحملة، وليس على عدد المتابعين فقط.",
+      },
+      {
+        title: "رؤية أوضح لأداء الحملة",
+        body: "تابع تقدّم الحملة والمحتوى المنشور، واحصل على تقارير واضحة يمكنك مشاركتها مع فريقك.",
+      },
+    ],
+    servicesEyebrow: "خدمات الحملات",
+    servicesLine1: "كل ما تحتاجه لإدارة",
+    servicesLine2: "حملة مؤثرين أقوى.",
+    servicesBody:
+      "من اختيار صُنّاع المحتوى المناسبين إلى متابعة التنفيذ، تعمل الاستراتيجية وإدارة صُنّاع المحتوى والمحتوى والتقارير ضمن رحلة واحدة واضحة.",
+    services: [
+      {
+        title: "اختيار صُنّاع المحتوى",
+        body: "اعثر على صُنّاع محتوى يتوافق جمهورهم وسوقهم وفئتهم وأسلوبهم مع علامتك وهدف حملتك.",
+      },
+      {
+        title: "استراتيجية الحملة",
+        body: "نحوّل أهدافك والسوق والجدول الزمني والميزانية إلى خطة حملة واضحة.",
+      },
+      {
+        title: "محتوى صُنّاع المحتوى",
+        body: "ينشئ صُنّاع المحتوى محتواهم بأسلوبهم الطبيعي، بما يتوافق مع تفاصيل الحملة وإرشادات علامتك.",
+      },
+      {
+        title: "متابعة الحملة",
+        body: "تابع التنفيذ أثناء الحملة واحصل على تقرير واضح بعد انتهائها.",
+      },
+    ],
+    filmEyebrow: "الحملات بالفيديو",
+    filmBody: "شاهد محتوى صُنّاع المحتوى وراء أرقام كل حملة.",
+    filmAlt: "مبدع يصور طبقاً في مطعم فاخر بإضاءة خفيفة",
+    processEyebrow: "كيف تعمل الحملة؟",
+    processLine1: "أربع خطوات واضحة",
+    processLine2: "من التفاصيل إلى النتائج.",
+    step: "خطوة",
+    steps: [
+      {
+        title: "نختار",
+        body: "نطابق علامتك مع صُنّاع محتوى يتناسب جمهورهم وسوقهم وأسلوبهم مع الحملة.",
+      },
+      {
+        title: "نخطّط",
+        body: "نحوّل أهدافك والسوق والتوقيت والمخرجات والميزانية إلى خطة حملة واضحة.",
+      },
+      {
+        title: "ننفّذ",
+        body: "ينشئ صُنّاع المحتوى محتوى طبيعيًا بأسلوبهم، مع الالتزام بإرشادات علامتك.",
+      },
+      {
+        title: "نقيس",
+        body: "تابع المحتوى المنشور أثناء الحملة، ثم راجع التنفيذ والوصول والأداء في تقارير واضحة.",
+      },
+    ],
+    storiesEyebrow: "حملات على أرض الواقع",
+    storiesLine1: "شاهد كيف تتعاون العلامات التجارية",
+    storiesLine2: "مع صُنّاع المحتوى على نطاق واسع.",
+    reelsEyebrow: "فيديوهات الحملات",
+    reelsLine1: "شاهد التنفيذ،",
+    reelsLine2: "وليس الأرقام فقط.",
+    dashEyebrow: "لوحة تحكم ELITƎ",
+    dashLine1: "حملتك واضحة أمامك",
+    dashLine2: "من مكان واحد.",
+    dashPoints: [
+      "تابع كل صانع محتوى من الدعوة حتى نشر المحتوى",
+      "شاهد القصص والمنشورات والفيديوهات في مكان واحد",
+      "أدر القوائم المختصرة والفروع وتسجيل وصول صُنّاع المحتوى",
+      "احصل على دعم مباشر للحملة عند الحاجة",
+    ],
+    ctaLine1: "مستعد لتخطيط",
+    ctaLine2: "حملتك القادمة؟",
+    ctaBody:
+      "أخبرنا بما تريد تحقيقه، وسنساعدك في تحديد صُنّاع المحتوى المناسبين وخطة الحملة والخطوات التالية.",
+    skylineAlt: "أفق مدينة خليجية ليلاً",
+  },
+  about: {
+    title: "عن ELITƎ | حملات صُنّاع المحتوى في أكثر من ٥٢ دولة",
+    description:
+      "لأكثر من عشر سنوات، ساعدت ELITƎ العلامات التجارية على تخطيط وإدارة حملات صُنّاع المحتوى في أكثر من ٥٢ دولة.",
+    eyebrow: "عن ELITƎ",
+    heroLine1: "أكثر من عشر سنوات من بناء التأثير",
+    heroLine2: "عبر أسواق متعددة.",
+    heroBody:
+      "لأكثر من عشر سنوات، ساعدت ELITƎ العلامات التجارية على تخطيط وإدارة حملات صُنّاع المحتوى في أكثر من ٥٢ دولة، بالاعتماد على فهم الأسواق وعلاقات صُنّاع المحتوى وإدارة واضحة للحملات.",
+    missionEyebrow: "ما الذي نقدمه؟",
+    missionTitle: "نجعل التسويق عبر المؤثرين أسهل في التخطيط والتنفيذ والقياس.",
+    missionBody:
+      "نبني استراتيجية صُنّاع المحتوى حول جمهورك وأهداف حملتك، ثم ندير الرحلة من الاختيار حتى التقارير.",
+    approachEyebrow: "منهجنا",
+    approachTitle: "صانع المحتوى المناسب. الجمهور المناسب. في الوقت المناسب.",
+    approachBody:
+      "نبدأ بتحديد الجمهور الذي تريد الوصول إليه، ثم نختار صُنّاع المحتوى وخطة السوق والتنفيذ الأنسب لهذا الهدف.",
+    quote: "صانع المحتوى المناسب، في السوق المناسب، وفي الوقت المناسب.",
+    figureAlt: "مبدع يصور طبقاً فاخراً لحملة علامة تجارية",
+    whyEyebrow: "لماذا تعمل العلامات التجارية مع ELITƎ؟",
+    whyLine1: "تجربة مبنية على الوضوح",
+    whyLine2: "والنطاق والتحكم.",
+    reasons: [
+      {
+        title: "خبرة مثبتة",
+        body: "أكثر من عشر سنوات من الخبرة العملية في إدارة الحملات عبر أسواق وقطاعات مختلفة.",
+      },
+      {
+        title: "انتشار في أسواق متعددة",
+        body: "تمنحك شبكة صُنّاع المحتوى في أكثر من ٥٢ دولة مساحة أكبر للتوسع بين الأسواق.",
+      },
+      {
+        title: "اختيار يبدأ من الجمهور",
+        body: "يبدأ اختيار صُنّاع المحتوى من ملاءمة الجمهور وهدف الحملة، وليس من عدد المتابعين فقط.",
+      },
+      {
+        title: "قياس واضح",
+        body: "تابع تنفيذ الحملة وراجع أداءها من خلال تقارير منظمة وواضحة.",
+      },
+      {
+        title: "دعم عملي",
+        body: "يساندك فريق الحملة من مرحلة التخطيط حتى التنفيذ والتقارير.",
+      },
+    ],
+    ctaLine1: "لنخطط",
+    ctaLine2: "لحملتك القادمة.",
+    ctaBody: "أخبرنا بهدفك والسوق المستهدف، وسنساعدك في تحديد أسلوب الحملة والخطوات التالية.",
+  },
+  clients: {
+    title: "عملاؤنا | ELITƎ",
+    description:
+      "تعمل علامات تجارية في الخليج وخارجه مع ELITƎ للوصول إلى جماهير أكثر صلة بأهدافها.",
+    eyebrow: "عملاؤنا",
+    heroLine1: "علامات تجارية تثق بـ ELITƎ",
+    heroLine2: "في إدارة حملاتها.",
+    heroBody:
+      "من الضيافة والجمال إلى الأزياء والسيارات ونمط الحياة، تعمل علامات تجارية في الخليج وخارجه مع ELITƎ للوصول إلى جماهير أكثر صلة بأهدافها.",
+    roster: "قائمة العملاء",
+    brands: "علامة تجارية",
+    search: "ابحث باسم العلامة التجارية",
+    emptyTitle: "لا توجد علامات تجارية مطابقة.",
+    emptyBody: "امسح البحث لعرض جميع العلامات.",
+    ctaLine1: "هل تريد أن تكون",
+    ctaLine2: "علامتك هنا؟",
+    ctaButton: "ابدأ حملة",
+  },
+  stories: {
+    title: "حملات على أرض الواقع | ELITƎ",
+    description: "تصفّح حملات ELITƎ حسب السوق وتعرّف على حجم مشاركة صُنّاع المحتوى في كل حملة.",
+    eyebrow: "حملات على أرض الواقع",
+    heroLine1: "استكشف حملات ELITƎ الحقيقية",
+    heroLine2: "بسهولة.",
+    heroBody:
+      "تصفّح الحملات حسب السوق وتعرّف على حجم مشاركة صُنّاع المحتوى في كل حملة. صفِّ الحملات حسب السوق للوصول إلى أمثلة أقرب لاحتياجك.",
+    heroAlt: "ضيوف يستعرضون معروضات العلامات الفاخرة في معرض وحفل جوائز حصري بالرياض",
+    featured: "حملات مختارة",
+    filmsEyebrow: "فيديوهات الحملات",
+    filmsLine1: "شاهد الحملات",
+    filmsLine2: "أثناء التنفيذ.",
+    ctaLine1: "جاهز لإطلاق",
+    ctaLine2: "حملتك؟",
+  },
+  contact: {
+    title: "ابدأ حملة — تواصل مع ELITƎ",
+    description:
+      "شارك علامتك والسوق المستهدف وهدف الحملة مع ELITƎ لتحديد أسلوب الحملة والخطوات التالية.",
+    eyebrow: "ابدأ حملتك",
+    heroLine1: "أخبرنا بما تريد",
+    heroLine2: "تحقيقه.",
+    heroBody:
+      "شارك معنا علامتك والسوق المستهدف وهدف الحملة. سنراجع التفاصيل ونعود إليك باقتراح واضح لأسلوب الحملة والخطوات التالية.",
+    points: [
+      "الوصول إلى أكثر من ٨٥ ألف صانع محتوى في أكثر من ٥٢ دولة",
+      "تخطيط وإدارة الحملة من البداية إلى النهاية",
+      "متابعة مباشرة للحملة وتقارير واضحة",
+    ],
+    fields: {
+      name: "الاسم الكامل",
+      namePh: "اكتب اسمك",
+      brand: "العلامة التجارية / الشركة",
+      brandPh: "اسم العلامة التجارية أو الشركة",
+      email: "بريد العمل",
+      emailPh: "name@company.com",
+      market: "السوق المستهدف",
+      marketPh: "السعودية، الكويت، الإمارات…",
+      goal: "هدف الحملة",
+      goalPh: "ما الذي تريد أن تحققه هذه الحملة؟",
+    },
+    submit: "أرسل تفاصيل الحملة",
+    sentTitle: "شكرًا لك. تم إرسال تفاصيل حملتك.",
+    sentBody: "سيقوم فريقنا بمراجعتها والتواصل معك قريبًا.",
+  },
+  platform: {
+    title: "لوحة تحكم ELITƎ",
+    description:
+      "أدر الفروع وصُنّاع المحتوى ومراحل الحملات والمحتوى المنشور من مساحة عمل واحدة في ELITƎ.",
+    hero: {
+      heading: "مساحة عمل واحدة لكل حملاتك.",
+      tag: "لوحة تحكم ELITƎ",
+      lede: "تابع الفروع وصُنّاع المحتوى ومراحل الحملات والمحتوى المنشور من مكان واحد، لتعرف أنت وفريقك دائمًا ما الذي يحدث وما الخطوة التالية.",
+      ctaPrimary: "استكشف النسخة التجريبية",
+      ctaSecondary: "احجز جولة تعريفية",
+    },
+    demo: {
+      note: "البيانات المعروضة تجريبية. بدّل بين الحملات لاستكشاف مساحة العمل.",
+      switchAriaLabel: "اختر حملة توضيحية للوحة التحكم",
+      viewLaunch: "إطلاق الصيف",
+      viewGrowth: "نمو مستمر",
+      viewOpening: "فرع جديد",
+      campaign: "إطلاق الصيف · الرياض",
+      period: "1-30 يونيو 2026",
+    },
+    kpis: {
+      branchesLabel: "الفروع",
+      branchesSub: "تقارير لكل فرع",
+      creatorsLabel: "صُنّاع المحتوى المحفوظون",
+      creatorsSub: "ملفات حفظها فريقك",
+      campaignsLabel: "الحملات",
+      campaignsSub: "الجارية والمجدولة",
+      coverageLabel: "المحتوى المنشور",
+      coverageSub: "قصص ومنشورات وفيديوهات",
+    },
+    overview: {
+      eyebrow: "تقدّم صُنّاع المحتوى",
+      heading: "اعرف حالة كل صانع محتوى بسهولة.",
+      lede: "تابع كل صانع محتوى من أول تواصل حتى نشر المحتوى دون الحاجة إلى البحث عن التحديثات بين الرسائل والجداول.",
+      pipelineAriaLabel: "مراحل الحملة لصانع المحتوى",
+    },
+    pipeline: {
+      pending: "قيد الانتظار",
+      confirmed: "مؤكَّد",
+      visited: "تمت الزيارة",
+      delivered: "تم التسليم",
+      postCreation: "إنشاء المحتوى",
+      shared: "تم النشر",
+      covered: "اكتملت التغطية",
+    },
+    panels: {
+      recentCampaigns: "حملات تجريبية",
+      recentCampaignsBadge: "بيانات تجريبية",
+      coverageDetails: "المحتوى المنشور",
+      coverageTotal: "346 قطعة محتوى",
+      story: "ستوري",
+      post: "منشور",
+      video: "ريلز",
+      coverageNote: "يُجمع المحتوى المنشور حسب النوع ويتحدّث مع الحملة التجريبية المختارة.",
+    },
+    features: {
+      eyebrow: "داخل المنصة",
+      heading: "صُممت لتمنح فرق الحملات رؤية وتحكمًا أوضح.",
+      influencersTitle: "صُنّاع المحتوى والقوائم المختصرة",
+      influencersCopy:
+        "تصفّح صُنّاع المحتوى واحفظ الملفات المناسبة وأنشئ قوائم مختصرة يمكن لفريقك استخدامها معًا.",
+      branchesTitle: "الفروع",
+      branchesCopy: "تابع نشاط صُنّاع المحتوى والمحتوى المنشور لكل موقع بشكل منفصل.",
+      scannerTitle: "تسجيل وصول صُنّاع المحتوى",
+      scannerCopy: "أكّد وصول صُنّاع المحتوى بمسح سريع وحافظ على تحديث بيانات كل موقع.",
+      campaignsTitle: "الحملات",
+      campaignsCopy: "تابع كل حملة من تفاصيلها والموافقات حتى التنفيذ والمحتوى المنشور.",
+      reportingTitle: "التقارير",
+      reportingCopy:
+        "راجع تنفيذ الحملة حسب صانع المحتوى ونوع المحتوى، ثم شارك النتائج بسهولة مع فريقك.",
+      supportTitle: "الدعم المباشر",
+      supportCopy: "احصل على مساعدة من فريق الحملة عندما تحتاج إليها.",
+    },
+    cta: {
+      heading: "شاهد كيف تناسب مساحة العمل حملتك.",
+      copy: "احجز جولة تعريفية واستكشف المنصة بناءً على احتياجات حملتك.",
+      button: "احجز جولة تعريفية",
+    },
+  },
+};
+
+export const content = { en: en as unknown as Content, ar };
+export type Lang = keyof typeof content;
