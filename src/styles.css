@@ -597,16 +597,16 @@
   padding-block: 0.06em;
 }
 
-[lang="ar"] .process-step {
+.process-step {
   padding-block: 2.5rem 3rem;
   padding-inline: 2rem;
 }
 
-[lang="ar"] .process-step h3 {
+.process-step h3 {
   margin-top: 1.75rem;
 }
 
-[lang="ar"] .process-step h3 + p {
+.process-step h3 + p {
   margin-top: 1.25rem;
 }
 
@@ -619,7 +619,7 @@
     line-height: 1.35;
   }
 
-  [lang="ar"] .process-step {
+  .process-step {
     padding-inline: 1.5rem;
   }
 }

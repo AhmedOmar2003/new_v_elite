@@ -86,43 +86,7 @@ function Home() {
         </div>
       </section>
 
-      {/* ---------------- stats ---------------- */}
-      <section className="border-y border-border bg-surface-alt">
-        <div className="mx-auto grid max-w-[1400px] grid-cols-2 px-6 lg:grid-cols-4 lg:px-10">
-          {stats.map((stat, i) => (
-            <Reveal
-              key={stat.label}
-              delay={i * 90}
-              className={`border-border py-10 lg:py-14 ${
-                i % 2 === 1 ? "border-s ps-6" : "lg:border-s lg:ps-6"
-              } ${i < 2 ? "border-b lg:border-b-0" : ""}`}
-            >
-              <p className="text-[clamp(2.2rem,5vw,3.4rem)] font-extrabold leading-none">
-                {stat.value.replace("+", "")}
-                <span className="text-gold">+</span>
-              </p>
-              <p className="eyebrow mt-4">{stat.label}</p>
-            </Reveal>
-          ))}
-        </div>
-      </section>
-
-      {/* ---------------- trusted by ---------------- */}
-      <section className="py-20 lg:py-28">
-        <p className="eyebrow mb-12 text-center">{c.home.trusted}</p>
-        <ClientMarquee />
-        <div className="mt-14 text-center">
-          <Link
-            to="/clients"
-            className="group inline-flex items-center gap-2 text-[0.72rem] font-bold uppercase tracking-[0.2em] text-gold"
-          >
-            {c.common.viewClients}
-            <ArrowUpRight className="size-4 transition-transform duration-300 group-hover:translate-x-1 group-hover:-translate-y-1 rtl:-scale-x-100" />
-          </Link>
-        </div>
-      </section>
-
-      {/* ---------------- pillars ---------------- */}
+      {/* ---------------- model ---------------- */}
       <section className="border-t border-border py-24 lg:py-32">
         <div className="mx-auto max-w-[1400px] px-6 lg:px-10">
           <div className="grid gap-16 lg:grid-cols-[0.85fr_1.15fr]">
@@ -158,6 +122,42 @@ function Home() {
               ))}
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* ---------------- stats ---------------- */}
+      <section className="border-y border-border bg-surface-alt">
+        <div className="mx-auto grid max-w-[1400px] grid-cols-2 px-6 lg:grid-cols-4 lg:px-10">
+          {stats.map((stat, i) => (
+            <Reveal
+              key={stat.label}
+              delay={i * 90}
+              className={`border-border py-10 lg:py-14 ${
+                i % 2 === 1 ? "border-s ps-6" : "lg:border-s lg:ps-6"
+              } ${i < 2 ? "border-b lg:border-b-0" : ""}`}
+            >
+              <p className="text-[clamp(2.2rem,5vw,3.4rem)] font-extrabold leading-none">
+                {stat.value.replace("+", "")}
+                <span className="text-gold">+</span>
+              </p>
+              <p className="eyebrow mt-4">{stat.label}</p>
+            </Reveal>
+          ))}
+        </div>
+      </section>
+
+      {/* ---------------- trusted by ---------------- */}
+      <section className="py-20 lg:py-28">
+        <p className="eyebrow mb-12 text-center">{c.home.trusted}</p>
+        <ClientMarquee />
+        <div className="mt-14 text-center">
+          <Link
+            to="/clients"
+            className="group inline-flex items-center gap-2 text-[0.72rem] font-bold uppercase tracking-[0.2em] text-gold"
+          >
+            {c.common.viewClients}
+            <ArrowUpRight className="size-4 transition-transform duration-300 group-hover:translate-x-1 group-hover:-translate-y-1 rtl:-scale-x-100" />
+          </Link>
         </div>
       </section>
 
