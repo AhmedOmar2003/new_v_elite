@@ -144,7 +144,7 @@ function Sidebar({
       >
         <div className="flex h-16 shrink-0 items-center border-b border-border px-5">
           <Link to="/app" aria-label="ELITƎ workspace">
-            <EliteWordmark className="h-3.5 w-auto text-foreground" />
+            <EliteWordmark className="h-12 w-20" />
           </Link>
         </div>
 

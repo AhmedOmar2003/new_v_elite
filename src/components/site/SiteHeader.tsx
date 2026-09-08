@@ -37,7 +37,7 @@ export function SiteHeader() {
     >
       <div className="mx-auto flex h-20 max-w-[1400px] items-center justify-between gap-6 px-6 lg:px-10">
         <Link to="/" aria-label="ELITƎ" className="group flex items-center gap-3">
-          <EliteWordmark className="h-4 w-auto text-foreground transition-colors duration-500 group-hover:text-gold" />
+          <EliteWordmark className="h-[4.25rem] w-[6.375rem]" />
         </Link>
 
         <nav className="hidden items-center gap-9 lg:flex">

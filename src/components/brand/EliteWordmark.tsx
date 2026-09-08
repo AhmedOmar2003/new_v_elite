@@ -1,36 +1,31 @@
 type Props = { className?: string };
 
-/**
- * Refined ELITƎ wordmark — geometric, hairline-thin bars, reversed final E.
- * Drawn on a 252 x 60 grid so it stays crisp at any size.
- */
+const darkLogo = "/Logo/Logo%20Elite%20-%20dark.png";
+const whiteLogo = "/Logo/Logo%20Elite%20-%20white.png";
+
+/** Official ELITƎ wordmark lockup, selected for the active surface theme. */
 export function EliteWordmark({ className }: Props) {
   return (
-    <svg
-      viewBox="0 0 252 60"
-      fill="currentColor"
+    <span
       role="img"
       aria-label="ELITƎ"
-      className={className}
+      className={`relative inline-block shrink-0 ${className ?? ""}`}
     >
-      <rect x="0" y="0" width="6" height="60" />
-      <rect x="0" y="0" width="40" height="6" />
-      <rect x="0" y="27" width="29" height="6" />
-      <rect x="0" y="54" width="40" height="6" />
-
-      <rect x="62" y="0" width="6" height="60" />
-      <rect x="62" y="54" width="34" height="6" />
-
-      <rect x="118" y="0" width="6" height="60" />
-
-      <rect x="146" y="0" width="44" height="6" />
-      <rect x="165" y="0" width="6" height="60" />
-
-      <rect x="246" y="0" width="6" height="60" />
-      <rect x="212" y="0" width="40" height="6" />
-      <rect x="223" y="27" width="29" height="6" />
-      <rect x="212" y="54" width="40" height="6" />
-    </svg>
+      <img
+        src={darkLogo}
+        alt=""
+        aria-hidden
+        draggable={false}
+        className="absolute inset-0 size-full object-contain dark:hidden"
+      />
+      <img
+        src={whiteLogo}
+        alt=""
+        aria-hidden
+        draggable={false}
+        className="absolute inset-0 hidden size-full object-contain dark:block"
+      />
+    </span>
   );
 }
 

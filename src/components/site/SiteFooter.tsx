@@ -11,7 +11,7 @@ export function SiteFooter() {
       <div className="mx-auto max-w-[1400px] px-6 py-20 lg:px-10">
         <div className="grid gap-14 lg:grid-cols-[1.4fr_1fr_1fr_1.2fr]">
           <div>
-            <EliteWordmark className="h-5 w-auto text-foreground" />
+            <EliteWordmark className="h-16 w-24" />
             <p className="mt-6 max-w-xs text-sm leading-relaxed text-muted-foreground">
               {c.footer.blurb}
             </p>
