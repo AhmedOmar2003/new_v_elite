@@ -33,14 +33,14 @@ function Home() {
   const stats = [
     { value: "52+", label: c.common.countries },
     { value: "50B+", label: c.common.reach },
-    { value: "85K+", label: c.common.creators },
+    { value: "85K+", label: c.home.networkStat },
     { value: "1500+", label: c.common.brandsServed },
   ];
 
   return (
     <>
       {/* ---------------- hero ---------------- */}
-      <section className="relative flex min-h-[100svh] items-end overflow-hidden">
+      <section className="relative flex min-h-[100svh] items-center overflow-hidden">
         <img
           src={heroNight}
           alt={c.home.heroAlt}
@@ -55,32 +55,31 @@ function Home() {
         />
         <div className="grain-overlay pointer-events-none absolute inset-0" aria-hidden />
 
-        <div className="relative mx-auto w-full max-w-[1400px] px-6 pb-16 pt-40 lg:px-10 lg:pb-24">
-          <p className="eyebrow rise text-gold">{c.home.eyebrow}</p>
-          <h1 className="rise mt-8 max-w-[54rem] text-[clamp(3rem,9vw,7.5rem)] font-extrabold leading-[0.92] text-hero-fg">
+        <div className="relative mx-auto w-full max-w-[1400px] px-6 py-28 text-center lg:px-10 lg:py-32">
+          <p
+            aria-label="ELITE"
+            className="rise text-[clamp(1.25rem,2.2vw,2rem)] font-semibold tracking-[0.42em] text-gold"
+            dir="ltr"
+          >
+            ELITƎ
+          </p>
+          <h1 className="rise mx-auto mt-8 max-w-[64rem] text-[clamp(2.7rem,8.5vw,7.5rem)] font-extrabold leading-[0.92] text-hero-fg">
             {c.home.heroLine1}
             <br />
             <span className="font-serif font-normal italic text-gold-gradient">
               {c.home.heroLine2}
             </span>
           </h1>
-          <div className="hairline line-draw mt-10 max-w-md" />
-          <p className="rise mt-8 max-w-lg text-base leading-relaxed text-hero-fg/72 sm:text-lg">
+          <p className="rise mx-auto mt-8 max-w-lg text-base leading-relaxed text-hero-fg/72 sm:text-lg">
             {c.home.heroBody}
           </p>
-          <div className="rise mt-10 flex flex-wrap items-center gap-4">
+          <div className="rise mt-10">
             <Link
               to="/contact"
               className="group inline-flex items-center gap-3 rounded-full bg-[image:var(--gradient-gold)] px-8 py-4 text-[0.72rem] font-bold uppercase tracking-[0.2em] text-primary-foreground shadow-[var(--shadow-gold)] transition-transform duration-300 hover:-translate-y-0.5"
             >
-              {c.common.planCampaign}
+              {c.home.heroCta}
               <ArrowRight className="size-4 transition-transform duration-300 group-hover:translate-x-1 rtl:-scale-x-100" />
-            </Link>
-            <Link
-              to="/success-stories"
-              className="inline-flex items-center gap-3 rounded-full border border-hero-fg/35 px-8 py-4 text-[0.72rem] font-bold uppercase tracking-[0.2em] text-hero-fg transition-colors duration-300 hover:border-gold hover:text-gold"
-            >
-              {c.common.seeStories}
             </Link>
           </div>
         </div>
